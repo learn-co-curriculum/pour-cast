@@ -23,21 +23,36 @@
 
 @implementation FISDailyForecastView
 
+-(instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if(self) {
+        [self commonInit];
+    }
+
+    return self;
+}
+
 -(instancetype)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
-    if(!self) return nil;
+    if(self) {
+        [self commonInit];
+    }
 
+    return self;
+}
+
+-(void)commonInit
+{
     [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class])
                                   owner:self
                                 options:nil];
-   
+
     [self addSubview:_view];
 
     _dateFormatter = [[NSDateFormatter alloc] init];
     [_dateFormatter setDateFormat:@"MM/dd"];
-
-    return self;
 }
 
 -(void)setDailyForecast:(FISDailyForecast *)dailyForecast
