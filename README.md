@@ -1,7 +1,4 @@
----
-tags: XIBs, views, refactoring
-languages: objc
----
+
 
 
 # pour-cast
