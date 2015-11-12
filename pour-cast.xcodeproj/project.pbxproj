@@ -13,14 +13,13 @@
 		AC54A0AD64CD951218E95307 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5DFA5E3767BFDDAB27D700 /* libPods-unit_tests.a */; };
 		AF2F896A020C405DB0266B43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E464B0A5CDB40B3B4639FB0 /* Images.xcassets */; };
 		BD03974C1AE03FC000115DFB /* FISDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = BD03974B1AE03FC000115DFB /* FISDailyForecast.m */; };
-		BD0397501AE0463A00115DFB /* FISDailyForecastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD03974F1AE0463A00115DFB /* FISDailyForecastView.xib */; };
-		BD0397531AE046C600115DFB /* FISDailyForecastView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0397521AE046C600115DFB /* FISDailyForecastView.m */; };
 		BDC939C01AE97C9C00DBE48F /* FISDailyForecastViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC939BF1AE97C9C00DBE48F /* FISDailyForecastViewSpec.m */; };
 		BDC939C21AE98A3600DBE48F /* FISViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC939C11AE98A3600DBE48F /* FISViewControllerSpec.m */; };
 		D8C986B71A1CED800093C217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C986B61A1CED800093C217 /* Main.storyboard */; };
 		D8C986BF1A1CFB000093C217 /* FISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C986BE1A1CFB000093C217 /* FISViewController.m */; };
 		D8C986F41A1E48E10093C217 /* ForcastAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C986F31A1E48E10093C217 /* ForcastAPIClient.m */; };
 		D8C986F61A1E490B0093C217 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C986F51A1E490B0093C217 /* CoreLocation.framework */; };
+		E232902D1BF5279300C12166 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E232902C1BF5279300C12166 /* Launch Screen.storyboard */; };
 		EBED90A52BE94426B7277246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146E6D8283F344F296BD9263 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,9 +49,6 @@
 		B390047BAEC1439AAFDE28AF /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		BD03974A1AE03FC000115DFB /* FISDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISDailyForecast.h; sourceTree = "<group>"; };
 		BD03974B1AE03FC000115DFB /* FISDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDailyForecast.m; sourceTree = "<group>"; };
-		BD03974F1AE0463A00115DFB /* FISDailyForecastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FISDailyForecastView.xib; sourceTree = "<group>"; };
-		BD0397511AE046C600115DFB /* FISDailyForecastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISDailyForecastView.h; sourceTree = "<group>"; };
-		BD0397521AE046C600115DFB /* FISDailyForecastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDailyForecastView.m; sourceTree = "<group>"; };
 		BDC939BF1AE97C9C00DBE48F /* FISDailyForecastViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDailyForecastViewSpec.m; sourceTree = "<group>"; };
 		BDC939C11AE98A3600DBE48F /* FISViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewControllerSpec.m; sourceTree = "<group>"; };
 		D7CEF5F56BD54A13B7ECE704 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +59,7 @@
 		D8C986F31A1E48E10093C217 /* ForcastAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForcastAPIClient.m; path = ../ForcastAPIClient.m; sourceTree = "<group>"; };
 		D8C986F51A1E490B0093C217 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E2055F6B601D4272AD7CA6E3 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		E232902C1BF5279300C12166 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E3A1079BED2240F69AEBAC70 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		F4582F8580AD8AAC13746C15 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -200,6 +197,7 @@
 				D7CEF5F56BD54A13B7ECE704 /* FISAppDelegate.m */,
 				BD03974A1AE03FC000115DFB /* FISDailyForecast.h */,
 				BD03974B1AE03FC000115DFB /* FISDailyForecast.m */,
+				E232902C1BF5279300C12166 /* Launch Screen.storyboard */,
 				515F21C34F194FB8A01DB0B2 /* Resources */,
 			);
 			path = "pour-cast";
@@ -217,6 +215,7 @@
 				33A0F2FBACDF4299B692A73C /* Frameworks */,
 				2C1005AD79814BF59714148D /* Resources */,
 				193E3A15238434E53B2F9AA5 /* Copy Pods Resources */,
+				234DC8F6D3721F12827FB7CC /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,6 +237,7 @@
 				39AB497BB94F4451B8A1B5E0 /* Resources */,
 				46E4D3C65EAE4F20AE4BBAF4 /* Warn for TODO and FIXME comments */,
 				9F6C6CCD3485DA6F83A07264 /* Copy Pods Resources */,
+				A837F287150F025FE10FD3DE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,7 +255,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FIS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "The Flatiron School";
 			};
 			buildConfigurationList = 5018B93098AC40C48EBF92B5 /* Build configuration list for PBXProject "pour-cast" */;
@@ -288,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E232902D1BF5279300C12166 /* Launch Screen.storyboard in Resources */,
 				AF2F896A020C405DB0266B43 /* Images.xcassets in Resources */,
 				D8C986B71A1CED800093C217 /* Main.storyboard in Resources */,
 			);
@@ -309,6 +310,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234DC8F6D3721F12827FB7CC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		46E4D3C65EAE4F20AE4BBAF4 /* Warn for TODO and FIXME comments */ = {
@@ -353,6 +369,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A837F287150F025FE10FD3DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4867B1C1DF7F40C3B5C5C3F /* Check Pods Manifest.lock */ = {
@@ -417,6 +448,7 @@
 				);
 				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatiron.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -447,6 +479,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -471,7 +504,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -490,6 +523,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "pour-cast/Resources/Other-Sources/pour-cast-Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"$(inherited)",
@@ -498,6 +532,7 @@
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatiron.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -517,6 +552,7 @@
 				);
 				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatiron.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -565,7 +601,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -591,6 +627,8 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "pour-cast/Resources/Other-Sources/pour-cast-Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatiron.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
