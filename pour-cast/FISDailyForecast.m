@@ -13,14 +13,15 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
     self = [super init];
-    if(!self) return nil;
 
-    NSInteger timeSeconds = [dictionary[@"time"] integerValue];
-    _date = [NSDate dateWithTimeIntervalSince1970:timeSeconds];
+    if(self) {
+        NSInteger timeSeconds = [dictionary[@"time"] integerValue];
+        _date = [NSDate dateWithTimeIntervalSince1970:timeSeconds];
 
-    _temperatureMax = [dictionary[@"temperatureMax"] floatValue];
-    _temperatureMin = [dictionary[@"temperatureMin"] floatValue];
-    
+        _temperatureMax = [dictionary[@"temperatureMax"] floatValue];
+        _temperatureMin = [dictionary[@"temperatureMin"] floatValue];
+    }
+
     return self;
 }
 
