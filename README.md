@@ -12,4 +12,4 @@ This simple weather app displays the forecast for the next 5 days. There's just 
 
 Now we have a single class that visually represents a day's forecast. Change some visuals in the XIB and see that all 5 days immediately get new change. Nice!
 
-<a href='https://learn.co/lessons/pour-cast' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/pour-cast' title='Pour Cast'>Pour Cast</a> on Learn.co and start learning to code for free.</p>
